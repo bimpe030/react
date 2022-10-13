@@ -1,0 +1,48 @@
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+select{
+    width: 300px;
+    padding: .5rem .3rem;
+    margin: .5rem 0;
+    outline: none;
+}
+
+button{
+    width: fit-content;
+    padding: .5rem .6rem;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+
+}
+
+button:hover{
+    background-color: white;
+    color: darkblue;
+    border: 1px solid darkblue;
+}
+
+.message{
+    color: red;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+h1{
+    margin-bottom: 0;
+}
+
+h3{
+    margin-top: 0;
+}
+
